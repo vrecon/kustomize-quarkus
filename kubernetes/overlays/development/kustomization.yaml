@@ -8,4 +8,4 @@ namePrefix: dev-
 images:
   - name: kustomize-quarkus-app
     newName: kustomize-quarkus-app
-    newTag: dev
+    newTag: 1.0.0
