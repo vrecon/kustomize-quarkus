@@ -4,6 +4,7 @@ kind: Service
 metadata:
   name: kustomize-quarkus-app
 spec:
+  type: NodePort  # Verander dit van ClusterIP naar NodePort
   ports:
     - port: 8080
       targetPort: 8080

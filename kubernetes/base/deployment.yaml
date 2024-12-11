@@ -11,6 +11,7 @@ spec:
     metadata:
       labels:
         app: kustomize-quarkus-app
+        environment: test  # Voeg deze nieuwe label toe
     spec:
       containers:
         - name: kustomize-quarkus-app
