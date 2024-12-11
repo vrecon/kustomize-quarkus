@@ -6,4 +6,4 @@ resources:
 images:
 - name: kustomize-quarkus-app
   newName: docker.io/templify/kustomize-quarkus
-  newTag: sha-f66c114
+  newTag: sha-1001fcc
