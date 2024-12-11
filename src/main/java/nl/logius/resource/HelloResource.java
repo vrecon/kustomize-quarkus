@@ -11,6 +11,6 @@ public class HelloResource {
 
     @GET
     public String hello() {
-        return "Hello RESTEasy";
+        return "Hello REST new docker tag";
     }
 }
