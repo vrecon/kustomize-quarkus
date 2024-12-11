@@ -1,0 +1,11 @@
+# base/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: kustomize-quarkus-app
+spec:
+  ports:
+    - port: 8080
+      targetPort: 8080
+  selector:
+    app: kustomize-quarkus-app

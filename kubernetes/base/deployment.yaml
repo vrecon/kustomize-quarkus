@@ -1,0 +1,19 @@
+# base/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kustomize-quarkus-app
+spec:
+  selector:
+    matchLabels:
+      app: kustomize-quarkus-app
+  template:
+    metadata:
+      labels:
+        app: kustomize-quarkus-app
+    spec:
+      containers:
+        - name: kustomize-quarkus-app
+          image: kustomize-quarkus-app:latest
+          ports:
+            - containerPort: 8080

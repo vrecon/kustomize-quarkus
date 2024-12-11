@@ -1,0 +1,11 @@
+# overlays/development/kustomization.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - ../../base
+namePrefix: dev-
+
+images:
+  - name: kustomize-quarkus-app
+    newName: kustomize-quarkus-app
+    newTag: dev
